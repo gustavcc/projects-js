@@ -1,0 +1,15 @@
+{
+  "name": "10_json",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --watch ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsonfile": "^6.1.0"
+  }
+}
