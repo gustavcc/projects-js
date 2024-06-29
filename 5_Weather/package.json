@@ -6,6 +6,7 @@
     "start": "node index"
   },
   "keywords": [],
+  "type":"module",
   "author": "",
   "license": "ISC",
   "description": "",
