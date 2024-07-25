@@ -44,7 +44,7 @@ var indexPag = 1;
 let qtdQuestoes = questoes.length;
 
 function rodarQuestao() {
-    for (questao of questoes){
+    for (questao of questoes) {
         if ((questao.id <= vMax) && (vMin <= questao.id)) {
             const plotQuestao = `
             <div id='${questao.id}' class="box-questoes">
