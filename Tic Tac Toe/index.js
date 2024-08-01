@@ -79,8 +79,8 @@ function fillButton(button) {
     if (button.innerText === '') {
         button.innerText = currentPlayer;
         currentPlayer == 'X' ? currentPlayer = 'O' : currentPlayer = 'X';
-        player.innerText = `Vez do Jogador: ${currentPlayer}`;
         verifyResponse();
+        player.innerText = `Vez do Jogador: ${currentPlayer}`;
     } else if (button.innerText !== '') {
         alert('Espaço já preenchido')
     }
